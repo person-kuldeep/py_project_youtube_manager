@@ -33,6 +33,7 @@ def index_check(vid_data):
         if 0 < vid_index <= len(vid_data):
             return vid_index - 1
         else:
+            print("\nINVALID INDEX\n")
             continue
 
 # list all video details
